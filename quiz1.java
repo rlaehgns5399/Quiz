@@ -24,8 +24,8 @@ public class quiz1 {
 		}
 		
 		int max = 0;
-		for(Map.Entry<String, Integer> entry : map.entrySet()) {
-			if(max < entry.getValue()) max = entry.getValue();
+		for(int entry : map.values()) {
+			if(max < entry) max = entry;
 		}
 		for(String name : map.keySet()) {
 			if(map.get(name) == max) System.out.println(name);

@@ -1,4 +1,4 @@
-with jdk 1.8
+with jdk 1.9, Eclipse Photon
 
 # quiz1.java
 > javac quiz1.java
